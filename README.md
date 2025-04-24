@@ -5,3 +5,5 @@ calculator.java-78- pogresan naziv metode, treba da stoji Calculator
 calculator.java-22- izmeniti naziv metode iz ToString u toString
 calculator.java-28- dodati override
 calculator.java-187- nepotrebna linija koda return, obrisana
+start.java-8,19- zameniti system.out sa logger
+start.java-6-promeniti ime lokalnoj varijabli
