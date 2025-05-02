@@ -10,3 +10,27 @@ Primeri:
 Ab+5                nevažeći karakter, izuzetak
 2 ** 8              nepodržani operator, izuzetak
 
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+public class NumberUtilsTest {
+
+    @Test
+    public void testIsEven() {
+        NumberUtils numberUtils = new NumberUtils();
+        assertTrue(numberUtils.isEven(4), "4 should be even");
+    }
+
+    @Test
+    public void testIsEvenWithZero() {
+        NumberUtils numberUtils = new NumberUtils();
+        assertTrue(numberUtils.isEven(0), "0 should be even");
+    }
+
+    @Test
+    public void testIsEvenWithNegativeEvenNumber() {
+        NumberUtils numberUtils = new NumberUtils();
+        assertTrue(numberUtils.isEven(-6), "-6 should be even");
+    }
+}
+
