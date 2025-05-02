@@ -1,11 +1,12 @@
+Probao sam izraze sa +, -, *, /.
 Probao sam izraze koji imaju greške, kao što su deljenje nulom, slova u izrazu i prazne unose.
 
 Primeri: 
 2+3                 5
 10-4                6
-(2+3)*4          20
-5/0                  Grešk: deljenje nulom
-10++5             sintaksna greška 
-Ab+5              nevažeći karakter, izuzetak
-2 ** 8             nepodržani operator, izuzetak
+(2+3)*4             20
+5/0                 Greška: deljenje nulom
+10++5               sintaksna greška 
+Ab+5                nevažeći karakter, izuzetak
+2 ** 8              nepodržani operator, izuzetak
 
